@@ -1,0 +1,42 @@
+/* 
+    ESTILOS GERAIS
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #883552;
+    }
+
+    scrollbar-width: thin;
+    scrollbar-color: #f1f1f1 #883552;
+
+
+    -ms-overflow-style: none;
+    scrollbar-base-color: #f1f1f1;
+    scrollbar-face-color: #883552;
+    scrollbar-arrow-color: #883552;
+    scrollbar-shadow-color: #883552;
+    scrollbar-highlight-color: #883552;
+    scrollbar-3dlight-color: #883552;
+    scrollbar-darkshadow-color: #883552;
+}

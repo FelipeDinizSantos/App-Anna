@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/index.css">
+    <link rel="stylesheet" href="./src/assets/css/header.css">
+    <link rel="stylesheet" href="./src/assets/css/main.css">
+    <link rel="stylesheet" href="./src/assets/css/footer.css">
+    <link rel="shortcut icon" href="./src/assets/img/iconeDaGuia.png">
+    <script defer src="./src/index.js"></script>
+    <title>App</title>
+</head>
+<body>
+    <header> 
+        <img src="https://seres.vet/images/logo.webp" alt="logo" class="logoMarca">
+        <nav>
+            <ul>
+                <li>Trabalhe conosco</li>
+                <li>Contrato</li>
+                <li>Doe!</li>
+                <li class="entrarCadastrar">
+                    <img src="./src/assets/img/pataCachorro.png" alt="pataCachorroIcone">
+                    Entrar / Cadastrar
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="guia">
+        <ul>
+            <li>
+                <img src="./src/assets/img/casa.png" alt="casa">
+                Home
+            </li>
+        </ul>
+    </section>
+
+    <main>
+
+        <section class="container">
+            <div class="galleryWrapper">
+                <div class="gallery">
+                    <img src="./src/assets/img/carroselBanner.webp" class="item currentItem">
+                    <img src="./src/assets/img/carroselBannerCovid.webp" class="item">
+                </div>
+            </div>
+            <button class="btnLeft control currentControl" aria-label="previousImage"></button>
+            <button class="btnRight control" aria-label="nextImage"></button>
+        </section>
+
+        <section class="areaDeCartoesDeConteudos">
+            <div class="cartaoConteudo importante">
+                <img src="./src/assets/img/apadrinhe.png" alt="apadrinhe">
+                <p>Apadrinhe!</p>
+            </div>
+            <div class="cartaoConteudo">
+                <img src="./src/assets/img/denuncia.png" alt="denuncias">
+                <p>Denúncias</p>
+            </div>
+            <div class="cartaoConteudo">
+                <img src="./src/assets/img/quemSomos.png" alt="quemSomos">
+                <p>Quem Somos</p>
+            </div>
+            <div class="cartaoConteudo">
+                <img src="./src/assets/img/animais.png" alt="conhecaOsAnimais">
+                <p>Conheça os Animais</p>
+            </div>
+            <div class="cartaoConteudo">
+                <img src="./src/assets/img/contribuicao.png" alt="contribuicoes">
+                <p>Contribuições</p>
+            </div>
+        </section>
+
+        <section class="areaAdocao">
+            <iframe class="iframe" width="70%" height="400px" src="https://www.youtube.com/embed/J6MCq2IcKPQ?si=GpmuqYamcrxYpEk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="areaTextoAdocao">
+                <p class="tituloAdocao">Realize sua adoção!</p>
+                <p>Adotar um animal é uma escolha incrível. Você está salvando uma vida e ganhando um amigo leal. Animais de abrigo precisam de um lar e amor. Não importa a raça ou idade, eles podem ser alegres companheiros. Visite um abrigo e adote hoje. Faça a diferença em suas vidas e na sua própria!</p>
+                <button> ADOTE! </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="textoRodape">
+            <p>Bem vindo ao site das Annas!</p>
+        </div>
+        <p>Copyright© 2023 ANNAS - Todos os direitos reservados</p>
+        <div class="redesSocias">
+            <img src="./src/assets/img/instagram.png" alt="instagram">
+            <img src="./src/assets/img/facebook.png" alt="facebook">
+        </div>
+    </footer>
+</body>
+</html>

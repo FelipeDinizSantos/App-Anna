@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+main
+{
+    margin: 1em auto 2em auto;
+    max-width: 100%;
+}
+  
+/* 
+    inicio -> CAROSSEL MENU  
+*/
+
+.container
+{
+    position: relative;
+    padding: 1em;
+    max-width: 90%;
+    min-width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.galleryWrapper
+{
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+    scroll-snap-type: x mandatory;
+}
+
+.galleryWrapper::-webkit-scrollbar
+{
+    display: none;
+}
+
+.gallery
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.btnLeft,
+.btnRight
+{
+    position: absolute;
+    left: 50%;
+    margin-top: -7.5em;
+    background-color: white;
+    border: 1px solid #000000d5;
+    padding: .38em;
+    border-radius: 100em;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.btnRight
+{
+    margin-left: 2em;
+}
+
+.item
+{
+    width: 100%;
+    flex-shrink: 0;
+    opacity: 0;
+    transition: all ease-in-out .4s;
+}
+
+.currentItem
+{
+    margin: 0 auto;
+    scroll-snap-align: center;
+    opacity: 1;
+}
+
+.currentControl
+{
+    background-color: #883552;
+}
+
+/* 
+    fim -> CAROSSEL MENU  
+*/
+
+/* 
+    inicio ->  AREA DOS CARTÕES DE CONTEUDOS 
+*/
+
+.areaDeCartoesDeConteudos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+    height: 12em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cartaoConteudo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    width: 100%;
+    color: #94CDE0;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+    margin-top: -4em;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.cartaoConteudo.importante
+{
+    background-color: #883552;
+    color: white;
+}
+
+@keyframes floating {
+    0% {transform: translateY(-.5em);}
+    50% {transform: translateY(-1em);}
+    100% {transform: translateY(-.5em);}
+}
+
+.cartaoConteudo:hover
+{
+    transform: translateY(-1em);
+    animation: floating infinite 2.5s;
+    transition: all 1s ease-in-out;
+}
+
+.cartaoConteudo img 
+{
+    width: 4em;
+    margin-bottom: 1.5em;
+}
+
+.cartaoConteudo p 
+{
+    font-size: 1.3em;
+}
+
+/* 
+    fim ->  AREA DOS CARTÕES DE CONTEUDOS 
+*/
+
+/* 
+    incio -> AREA ADOÇÃO  
+*/
+
+.areaAdocao
+{
+    background-color: #F7EEE4;
+    width: 90%;
+    height: 35em;
+    margin: -5.5em auto 0 auto;
+    display: flex;
+    gap: 5em;
+    padding: 8.5em 7em 7em 7em;
+    position: relative;
+    align-items: center;
+}
+
+.areaTextoAdocao
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 50%;
+}
+
+.areaTextoAdocao p
+{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.areaAdocao .tituloAdocao
+{
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Merriweather';
+    color: #883552;
+    font-size: 2em;
+}
+
+.areaAdocao button
+{
+   width: 40%;
+   margin: 0 auto;
+   border: none;
+   background-color: #883552;
+   color: white;
+   padding: 1.5em;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.areaAdocao button:hover
+{
+    background-color: #993c5d;
+    transition: all .5s ease-in-out;
+}
+
+/* 
+    fim -> AREA ADOÇÃO  
+*/

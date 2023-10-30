@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/* 
+    CABEÇALHO E SEUS ESTILOS 
+*/
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #883552;
+    padding: .7em 5em .7em 5em;
+    position: relative;
+}
+
+header .logoMarca
+{
+    width: 14em;
+    cursor: pointer;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul li 
+{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 1em 0 1em;
+}
+
+nav ul li:hover
+{
+    color: #ffffffc5;
+    transition: all ease-in-out .4s;
+}
+
+nav li.entrarCadastrar
+{
+    display: flex;
+    padding: 10px 0 10px 0;
+    align-items: center;
+    gap: .8em;
+    position: relative;
+}
+
+nav li.entrarCadastrar::after
+{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out .5s;
+}
+
+nav li.entrarCadastrar:hover::after
+{
+    width: 100%;
+}
+
+nav li.entrarCadastrar:hover
+{
+    color: white;
+}
+
+nav ul li.entrarCadastrar img
+{
+    width: 2em;
+}
+
+.guia
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #F8EEE4;
+    color: #883552;
+    font-size: 1em;
+    padding: .7em 5em;
+}
+
+.guia ul
+{   
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather';
+}
+
+.guia ul li
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.guia ul li img
+{
+    width: 1.5em;
+    margin-right: .5em;
+    margin-top: -.4em;
+}
