@@ -10,17 +10,17 @@ class Main
 
       quemSomos.addEventListener('click', () => 
       {
-        window.open("./src/pages/quemSomos.html", "_blank");
+        window.location.href="./src/pages/quemSomos.html";
       })
 
       denuncias.addEventListener('click', ()=>
       {
-        window.open("./src/pages/denuncia.html", "_blank");
+        window.location.href="./src/pages/denuncia.html";
       })
 
       apadrinhe.addEventListener('click', ()=>
       {
-        window.open("./src/pages/apadrinhe.html", "_blank");
+        window.location.href="./src/pages/apadrinhe.html";
       })
     }
 

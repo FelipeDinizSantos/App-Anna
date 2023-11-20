@@ -54,8 +54,9 @@ footer.blur{
     position: absolute;
     top: 0;
     right: 0;
-    background-color: red;
-    color: white;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
     padding: 1.2em;
     border: none;
     cursor: pointer;
@@ -63,5 +64,7 @@ footer.blur{
 
 .contatoInformacoes .info .close:hover
 {
+    border: none;
+    color: white;
     background-color: rgb(245, 65, 65);
 }
