@@ -1,0 +1,226 @@
+.container
+{
+    display: flex;
+    width: 100%;
+    height: 22em;
+    background-color: #F4EFDF;
+    margin: 4em 0em 6em 0em;
+}
+
+.container .banner
+{
+    width: 70%;
+    height: 120%;
+    margin: -1.5em auto 0em auto;
+}
+
+.container .banner img
+{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+/*
+    QUEM SOMOS 
+*/
+
+.quemSomos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    gap: 1em;
+    margin: -1em 0em 2em 0em;
+}
+
+.quemSomos h1
+{
+    color: #81A969;
+    font-weight: bolder;
+}
+
+.quemSomos p
+{
+    color: #81A969;
+    font-weight: bold;
+    text-indent: 1em;
+    text-align: justify;
+    width: 40%;
+    font-size: 18px;
+}
+
+/* 
+    NOSSA MISSÃO
+*/
+
+.nossaMissao
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding: 5em;
+}
+
+.nossaMissao .nossaMissaoTexto
+{
+    display: flex;
+    width: 45%;
+    height: 30em;
+    padding: 0 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: #81A969;
+}
+
+.nossaMissao .nossaMissaoBanner
+{
+    margin-left: -4em;
+}
+
+.nossaMissao .nossaMissaoTexto h1
+{
+    color: white;
+    font-weight: bold;
+    margin-left: -1em;
+    margin-bottom: .5em;
+}
+
+.nossaMissao .nossaMissaoTexto p
+{
+    width: 80%;
+    text-indent: 1em;
+    margin-left: -2em;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+/* 
+    NOSSO TRABALHO 
+*/
+
+.nossoTrabalho
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding: 5em;
+}
+
+#nossoTrabalhoTitulo
+{
+    top: 0;
+    position: absolute;
+}
+
+.nossoTrabalho .containerTrabalho
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.nossoTrabalho .containerTrabalho img
+{
+    width: 5em;
+    margin-bottom: 1em;
+}
+
+.nossoTrabalho .containerTrabalho p
+{
+    margin-top: 1em;
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 1em;
+}
+
+/* 
+    NOSSA LOCALIDADE
+*/
+
+.nossaLocalidade
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.nossaLocalidadeContainer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 22em;
+    background-color: #68924F;
+    position: relative;
+    margin: 5em 0em 6em 0em;
+}
+
+.nossaLocalidadeContainer h1
+{
+    text-align: center;
+    color: #A7D18D;
+    font-weight: bolder;
+    margin-left: -45%;
+    margin-top: -2em;
+    margin-bottom: 3em;
+}
+
+.nossaLocalidadeContainer .textoLocalidade
+{
+    color: white;
+    width: 45%;
+    margin-left: -45%;
+    margin-bottom: 1em;
+    font-size: 18px;
+    text-indent: 1em;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.nossaLocalidadeContainer .localidaeBanner
+{
+    position: absolute;
+    margin-top: -2em;
+    width: 45%;
+    height: 120%;
+    right: 0;
+}
+
+.nossaLocalidadeContainer .contato
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    width: 30%;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: -45%;
+    border-radius: 100em;
+    padding: 1.5em;
+    gap: 1em;
+}
+
+.contato img
+{
+    width: 2em;
+}

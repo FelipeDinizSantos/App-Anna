@@ -24,19 +24,19 @@ html
     }
 
     ::-webkit-scrollbar-thumb {
-        background: #883552;
+        background: #689250;
     }
 
     scrollbar-width: thin;
-    scrollbar-color: #f1f1f1 #883552;
+    scrollbar-color: #f1f1f1 #689250;
 
 
     -ms-overflow-style: none;
     scrollbar-base-color: #f1f1f1;
-    scrollbar-face-color: #883552;
-    scrollbar-arrow-color: #883552;
-    scrollbar-shadow-color: #883552;
-    scrollbar-highlight-color: #883552;
-    scrollbar-3dlight-color: #883552;
-    scrollbar-darkshadow-color: #883552;
+    scrollbar-face-color: #689250;
+    scrollbar-arrow-color: #689250;
+    scrollbar-shadow-color: #689250;
+    scrollbar-highlight-color: #689250;
+    scrollbar-3dlight-color: #689250;
+    scrollbar-darkshadow-color: #689250;
 }

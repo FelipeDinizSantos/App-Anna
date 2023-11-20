@@ -1,5 +1,15 @@
 class Main 
 {
+    redirectMenu()
+    {
+      const quemSomos = document.querySelectorAll('.cartaoConteudo');
+      quemSomos[2].addEventListener('click', () => 
+      {
+        console.log('clicked!');
+        window.open("./src/pages/quemSomos.html", "_blank");
+      })
+    }
+
     controllerCarousel() 
     {
       const controls = document.querySelectorAll('.control');
@@ -71,6 +81,7 @@ class Main
       {
         const object = new Main();
         object.controllerCarousel();
+        object.redirectMenu();
       }
 }
 
