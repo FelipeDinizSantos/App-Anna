@@ -11,8 +11,9 @@ header
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #883552;
+    background-color: #F4EFDF;
     padding: .7em 5em .7em 5em;
+    box-shadow: 1px 6px 5px 1px rgba(0, 0, 0, 0.308);
     position: relative;
 }
 
@@ -26,29 +27,33 @@ nav ul
 {
     display: flex;
     align-items: center;
+    gap: 2em;
     flex-direction: row;
 }
 
 nav ul li 
 {
-    color: white;
+    color: #5C4328;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
+    border-bottom: 3px solid transparent;
     margin: 0 1em 0 1em;
+    padding: 1em 0;
 }
 
 nav ul li:hover
 {
-    color: #ffffffc5;
+    border-color: #5C4328;
     transition: all ease-in-out .4s;
 }
 
 nav li.entrarCadastrar
 {
     display: flex;
-    padding: 10px 0 10px 0;
+    margin-top: -.5em;
     align-items: center;
     gap: .8em;
+    border: none;
     position: relative;
 }
 
@@ -56,8 +61,8 @@ nav li.entrarCadastrar::after
 {
     content: " ";
     width: 0%;
-    height: 2px;
-    background-color: white;
+    height: 3px;
+    background-color: #5C4328;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -69,46 +74,7 @@ nav li.entrarCadastrar:hover::after
     width: 100%;
 }
 
-nav li.entrarCadastrar:hover
-{
-    color: white;
-}
-
 nav ul li.entrarCadastrar img
 {
     width: 2em;
-}
-
-.guia
-{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: #F8EEE4;
-    color: #883552;
-    font-size: 1em;
-    padding: .7em 5em;
-}
-
-.guia ul
-{   
-    display: flex;
-    align-items: center;
-    font-family: 'Merriweather';
-}
-
-.guia ul li
-{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.guia ul li img
-{
-    width: 1.5em;
-    margin-right: .5em;
-    margin-top: -.4em;
 }

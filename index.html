@@ -3,37 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/assets/css/index.css">
-    <link rel="stylesheet" href="./src/assets/css/header.css">
-    <link rel="stylesheet" href="./src/assets/css/main.css">
-    <link rel="stylesheet" href="./src/assets/css/footer.css">
-    <link rel="shortcut icon" href="./src/assets/img/iconeDaGuia.png">
+    <link rel="stylesheet" href="./src/assets/css/paginalInicial/index.css">
+    <link rel="stylesheet" href="./src/assets/css/paginalInicial/header.css">
+    <link rel="stylesheet" href="./src/assets/css/paginalInicial/main.css">
+    <link rel="stylesheet" href="./src/assets/css/paginalInicial/footer.css">
+    <link rel="shortcut icon" href="./src/assets/img/logoGuia.png">
     <script defer src="./src/index.js"></script>
     <title>App</title>
 </head>
 <body>
     <header> 
-        <img src="https://seres.vet/images/logo.webp" alt="logo" class="logoMarca">
+        <img src="./src/assets/img/logo.jpg" alt="logo" class="logoMarca">
         <nav>
             <ul>
-                <li>Trabalhe conosco</li>
-                <li>Contrato</li>
-                <li>Doe!</li>
+                <li>TRABALHE CONOSCO</li>
+                <li>CONTRATO</li>
+                <li>DOE AGORA!</li>
                 <li class="entrarCadastrar">
                     <img src="./src/assets/img/pataCachorro.png" alt="pataCachorroIcone">
-                    Entrar / Cadastrar
+                    ENTRAR / CADASTRAR
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="guia">
-        <ul>
-            <li>
-                <img src="./src/assets/img/casa.png" alt="casa">
-                Home
-            </li>
-        </ul>
-    </section>
 
     <main>
 
@@ -72,24 +64,69 @@
         </section>
 
         <section class="areaAdocao">
-            <iframe class="iframe" width="70%" height="400px" src="https://www.youtube.com/embed/J6MCq2IcKPQ?si=GpmuqYamcrxYpEk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <img src="./src/assets/img/tucano.jpg" alt="tucano">
             <div class="areaTextoAdocao">
-                <p class="tituloAdocao">Realize sua adoção!</p>
-                <p>Adotar um animal é uma escolha incrível. Você está salvando uma vida e ganhando um amigo leal. Animais de abrigo precisam de um lar e amor. Não importa a raça ou idade, eles podem ser alegres companheiros. Visite um abrigo e adote hoje. Faça a diferença em suas vidas e na sua própria!</p>
+                <p class="tituloAdocao">VOCÊ PODE FAZER A DIFERENÇA AO APOIAR A BEM-ESTAR ANIMAL</p>
+                <p>Clique para ajudar nos trabalhos da bem-estar animal</p>
                 <button> ADOTE! </button>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="textoRodape">
-            <p>Bem vindo ao site das Annas!</p>
+        <div class="conteudoRodape">
+            <img src="./src/assets/img/logo.jpg" alt="logoFooter">
+            <p>
+                A BEM-ESTAR ANIMAL é uma organização sem fins lucrativos comprometida com a proteção, resgate e o cuidado dos animais silvestres.
+            </p>
+            <p class="destaque">
+                Dúvidas e Informações
+            </p>
         </div>
-        <p>Copyright© 2023 ANNAS - Todos os direitos reservados</p>
-        <div class="redesSocias">
-            <img src="./src/assets/img/instagram.png" alt="instagram">
-            <img src="./src/assets/img/facebook.png" alt="facebook">
+
+        <div class="conteudoRodape tipo-2">
+            <p class="destaque">
+                Como Ajudar
+            </p>
+            <p>
+                Doação
+            </p>
+            <p>
+                Contribuição
+            </p>
         </div>
+
+        <div class="conteudoRodape tipo-2">
+            <p class="destaque">
+                Bem-Estar Animal
+            </p>
+            <p>
+                Nos Conheça
+            </p>
+        </div>
+
+        <div class="conteudoRodape InformacoesContato">
+            <h1>FORMAS DE PAGAMENTO</h1>
+            <div class="cartoes">
+                <img src="./src/assets/img/bandeiraQrCode.webp" alt="bandeiraQrCode" class="bandeira">
+                <img src="./src/assets/img/bandeiraVisa.png" alt="bandeiraVisa" class="bandeira">
+                <img src="./src/assets/img/bandeiraElo.webp" alt="bandeiraElo" class="bandeira">
+                <img src="./src/assets/img/bandeiraPix.png" alt="bandeiraPix" class="bandeira">
+            </div>
+            <h1>REDES SOCIAS</h1>
+            <div class="redesSocias">
+                <div class="iconsRedes">
+                    <img src="./src/assets/img/telegram.png" alt="telegram" class="icon">
+                    <img src="./src/assets/img/instagram.png" alt="instagram" class="icon">
+                    <img src="./src/assets/img/whatsapp.png" alt="whatsapp" class="icon">
+                    <img src="./src/assets/img/twitter.png" alt="twitter" class="icon">
+                    <img src="./src/assets/img/facebook.png" alt="facebook" class="icon">
+                </div>
+            </div>
+        </div>
+        <p id="copyright">
+            © Copyright 2023 - Bem-Estar Animal. Todos os direitos reservados
+        </p>
     </footer>
 </body>
 </html>
