@@ -1,22 +1,27 @@
 .container
 {
+    position: relative;
     display: flex;
     width: 100%;
-    height: 22em;
+    margin-top: 8.5em;
+    height: 21em;
     background-color: #F4EFDF;
-    margin: 4em 0em 6em 0em;
 }
 
 .container .banner
 {
+    position: absolute;
+    margin-top: -.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 70%;
-    height: 120%;
-    margin: -1.5em auto 0em auto;
+    height: 150%;
 }
 
 .container .banner img
 {
-    margin: 0 auto;
+    margin-top: .5em;
     height: 100%;
     width: 100%;
 }
@@ -34,7 +39,7 @@
     width: 100%;
     height: 300px;
     gap: 1em;
-    margin: -1em 0em 2em 0em;
+    margin: 7em 0em 2.5em 0em;
 }
 
 .quemSomos h1
@@ -198,7 +203,7 @@
 .nossaLocalidadeContainer .localidaeBanner
 {
     position: absolute;
-    margin-top: -2em;
+    margin-top: -2.5em;
     width: 45%;
     height: 120%;
     right: 0;
