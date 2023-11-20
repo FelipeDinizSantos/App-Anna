@@ -6,6 +6,7 @@ class Main
 
       const quemSomos = cards[2];
       const denuncias = cards[1];
+      const apadrinhe = cards[0];
 
       quemSomos.addEventListener('click', () => 
       {
@@ -15,6 +16,11 @@ class Main
       denuncias.addEventListener('click', ()=>
       {
         window.open("./src/pages/denuncia.html", "_blank");
+      })
+
+      apadrinhe.addEventListener('click', ()=>
+      {
+        window.open("./src/pages/apadrinhe.html", "_blank");
       })
     }
 

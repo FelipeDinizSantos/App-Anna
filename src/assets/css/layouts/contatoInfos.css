@@ -1,0 +1,67 @@
+header.blur
+{
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+main.blur{
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+footer.blur{
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+.contatoInformacoes
+{
+    display: none;
+}
+
+.contatoInformacoes.show
+{    
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+    width: 100%;
+}
+
+.contatoInformacoes .info
+{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 1em;
+    height: 20em;
+    background-color: #EFEEEB;
+    box-shadow: -1px 5px 17px 4px rgba(0, 0, 0, 0.205);
+}
+
+.contatoInformacoes .info h1
+{
+    color: #81A969;
+    font-size: 16px;
+}
+
+.contatoInformacoes .info .close
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.contatoInformacoes .info .close:hover
+{
+    background-color: rgb(245, 65, 65);
+}
