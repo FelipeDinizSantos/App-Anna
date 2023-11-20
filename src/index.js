@@ -2,11 +2,19 @@ class Main
 {
     redirectMenu()
     {
-      const quemSomos = document.querySelectorAll('.cartaoConteudo');
-      quemSomos[2].addEventListener('click', () => 
+      const cards = document.querySelectorAll('.cartaoConteudo');
+
+      const quemSomos = cards[2];
+      const denuncias = cards[1];
+
+      quemSomos.addEventListener('click', () => 
       {
-        console.log('clicked!');
         window.open("./src/pages/quemSomos.html", "_blank");
+      })
+
+      denuncias.addEventListener('click', ()=>
+      {
+        window.open("./src/pages/denuncia.html", "_blank");
       })
     }
 
